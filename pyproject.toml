@@ -7,7 +7,10 @@ name = "llm-learning"
 requires-python = ">=3.8"
 dynamic = ["version"]
 dependencies = [
-    # Add runtime dependencies here
+    "transformers",
+    "torch",
+    "torchvision",
+    "torchaudio"
 ]
 
 # Enables the usage of setuptools_scm
